@@ -1,0 +1,11 @@
+temp.csv : get from scrap
+
+tocsv.py : format temp.csv to data.csv
+
+todatabase.py : run csv to DB //not use 
+
+
+
+1. $ scrapy crawl itunes -o temp.csv
+
+2. $ python tocsv.py
